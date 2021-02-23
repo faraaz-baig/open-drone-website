@@ -31,7 +31,7 @@
           <img src="~/assets/images/home-drone.png" alt="drone image">
         </div>
         <div class="flex flex-col mb-64">
-          <p class="self-center font-title font-bold text-6xl">Deliver <span>Food</span> with Drone</p>
+          <p class="self-center font-title font-bold text-6xl"><Type /></p>
           <div class=" my-4 mx-auto text-center text-body max-w-2xl">
             <p class="leading-7">The Open Drone is a group of individuals that share a passion to innovate within the logistics industry to dramatically improve drone delivery and drone infrastructure worldwide.</p>
           </div>
@@ -85,11 +85,6 @@ input:focus, button{
     outline: none;
 }
 
-span {
-  background: linear-gradient(90deg, #0077FF 0.71%, #348CF1 100%);
-  background-clip: text;
-  color: transparent;
-}
 button:hover {
   background: linear-gradient(90deg, #348CF1  0.71%, #0077FF 100%);
 }
