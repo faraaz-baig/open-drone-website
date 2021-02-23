@@ -59,11 +59,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media only screen and (max-width: 1200px) {
-  /*.home {
-  background-image: url("~/assets/images/wall.png");
-  }*/
-}
+
 
 .email {
   background: rgba(38, 38, 38, 0.92);
