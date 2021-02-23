@@ -5,7 +5,8 @@ module.exports = {
             colors: {
                 blue: '#0077FF',
                 'light-blue': '#348CF1',
-                grey: '#D1D1D1'
+                grey: '#D1D1D1',
+                'fa-black': '#101010'
             },
             fontFamily: {
                 'sans': ['Roboto'],
@@ -15,7 +16,11 @@ module.exports = {
             
         },
     },
-    variants: {},
+    variants: {
+        extend: {
+            backgroundColor: ['active', 'hover']
+        }
+    },
     plugins: [],
     purge: {
         enabled: process.env.NODE_ENV === 'production',
