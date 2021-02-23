@@ -1,6 +1,6 @@
 <template>
-    <footer class="mt-48 pb-6 flex flex-col items-center">
-        <p class="pb-12">For all media enguires, please contact <a class="underline" href="mailto:media@theopendrone.com">media@theopendrone.com</a></p>
+    <footer class="mt-36 pb-6 flex flex-col items-center">
+        <p class="pb-12 text-center text-xs sm:text-sm">For all media enguires, please contact <a class="underline" href="mailto:media@theopendrone.com">media@theopendrone.com</a></p>
         <div class="flex w-20 sm:w-32 justify-evenly pb-4">
           <a class="px-2" href="#"
             ><img src="~/assets/images/twitter.svg" alt="twitter"
