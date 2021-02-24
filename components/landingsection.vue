@@ -19,13 +19,13 @@
       <footer class="pb-6 flex flex-col">
         <div class="flex w-20 sm:w-32 justify-evenly mx-auto pb-4">
           <a class="px-2" href="#"
-            ><img src="~/assets/images/twitter.svg" alt="twitter"
+            ><img src="~/assets/images/twitter-white.svg" alt="twitter"
           /></a>
           <a class="pr-2" href="#"
-            ><img src="~/assets/images/linkedin.svg" alt="linkedin"
+            ><img src="~/assets/images/linkedin-white.svg" alt="linkedin"
           /></a>
           <a class="pr-2" href="#"
-            ><img src="~/assets/images/instagram.svg" alt="instagram"
+            ><img src="~/assets/images/instagram-white.svg" alt="instagram"
           /></a>
         </div>
         <p class="text-grey text-xs sm:text-sm text-opacity-50">The Open Drone. © 2021</p>

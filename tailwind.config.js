@@ -5,7 +5,7 @@ module.exports = {
                 blue: '#0077FF',
                 'light-blue': '#348CF1',
                 grey: '#D1D1D1',
-                'fa-black': '#272A2A'
+                'fa-black': '#202020'
             },
             fontFamily: {
                 'sans': ['Roboto'],
@@ -17,10 +17,12 @@ module.exports = {
     },
     variants: {
         extend: {
-            backgroundColor: ['active', 'hover']
+            textOpacity: ['active', 'hover']
         }
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/typography'),
+    ],
     purge: [
         'components/**/*.vue',
         'layouts/**/*.vue',

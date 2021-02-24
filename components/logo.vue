@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-col items-center p-20">
+    <div class="flex flex-col items-center px-20 pt-20 pb-7">
         <nuxt-link to="/">
-            <img class="w-56" src="~/assets/images/logo.svg" alt="logo"/>
+            <img class="w-96" src="~/assets/images/logo-black.svg" alt="logo"/>
         </nuxt-link>
     </div>
 </template>

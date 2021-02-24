@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-black">
-    <div class="py-20 border-b border-white border-opacity-20">
-      <p class="font-title text-2xl mb-12">Frequently Asked Questions</p>
+  <div class="bg-white">
+    <div class="py-12 border-b border-black border-opacity-20">
+      <p class="font-title font-semibold text-2xl mb-12">Frequently Asked Questions</p>
       <p class="leading-8 font-body text-sm md:font-base tracking-wider">
         To solve the problem of soul-destroying traffic, roads must go 3D, which
         means either flying cars or tunnels are needed. Unlike flying cars,
@@ -15,19 +15,19 @@
         Select one of the following topics below to learn more.
       </p>
       <div class="flex flex-wrap justify-center md:justify-between items-center mt-16 text-center">
-        <nuxt-link class="py-2 mb-4 uppercase font-bold outline-none bg-gradient-to-r from-blue to-light-blue w-80 sm:mr-4 md:w-32" :to="{hash:'#drone'}">Drone</nuxt-link>
-        <nuxt-link class="py-2 mb-4 uppercase font-bold outline-none bg-gradient-to-r from-blue to-light-blue w-80 sm:mr-4 md:w-32" :to="{hash:'#drone'}">Payload</nuxt-link>
-        <nuxt-link class="py-2 mb-4 uppercase font-bold outline-none bg-gradient-to-r from-blue to-light-blue w-80 sm:mr-4 md:w-32" :to="{hash:'#drone'}">Application</nuxt-link>
-        <nuxt-link class="py-2 mb-4 uppercase font-bold outline-none bg-gradient-to-r from-blue to-light-blue w-80 sm:mr-4 md:w-32" :to="{hash:'#drone'}">Nodes</nuxt-link>
-        <nuxt-link class="py-2 mb-4 uppercase font-bold outline-none bg-gradient-to-r from-blue to-light-blue w-80 sm:mr-4 md:w-32" :to="{hash:'#drone'}">Logistics</nuxt-link>
+        <nuxt-link class="py-2 but rounded mb-4 text-white font-medium outline-none bg-fa-black w-80 sm:mr-4 md:w-32" :to="{hash:'#drone'}">Drone</nuxt-link>
+        <nuxt-link class="py-2 but rounded mb-4 text-white font-medium outline-none bg-fa-black w-80 sm:mr-4 md:w-32" :to="{hash:'#drone'}">Payload</nuxt-link>
+        <nuxt-link class="py-2 but rounded mb-4 text-white font-medium outline-none bg-fa-black w-80 sm:mr-4 md:w-32" :to="{hash:'#drone'}">Application</nuxt-link>
+        <nuxt-link class="py-2 but rounded mb-4 text-white font-medium outline-none bg-fa-black w-80 sm:mr-4 md:w-32" :to="{hash:'#drone'}">Nodes</nuxt-link>
+        <nuxt-link class="py-2 but rounded mb-4 text-white font-medium outline-none bg-fa-black w-80 sm:mr-4 md:w-32" :to="{hash:'#drone'}">Logistics</nuxt-link>
       </div>   
                    
     </div>
-    <div class="flex flex-col py-20 border-b border-white border-opacity-20">
-      <p class="font-title text-2xl mb-12 self-start" id="drone">Drone</p>
+    <div class="flex flex-col py-12 border-b border-black border-opacity-20">
+      <p class="font-title font-semibold text-2xl mb-12 self-start" id="drone">Drone</p>
       <img class="self-center mb-12" src="~/assets/images/home-drone.png" alt="drone-image" />
       <div class="flex flex-col lg:flex-row justify-between">
-        <p class="font-title text-2xl mb-12">Why Drone?</p>
+        <p class="font-title font-semibold text-2xl mb-12">Why Drone?</p>
         <p class="leading-8 font-body text-sm md:font-base tracking-wider lg:max-w-2xl">
           Unlimited capacity: There is no practical limit to how many layers of
           tunnels can be built, so any current or future capacity outcome can be
@@ -47,9 +47,9 @@
         </p>
       </div>
     </div>
-    <div class="flex flex-col lg:flex-row justify-between py-20">
-        <p class="font-title text-2xl mb-12">How can I share feedback?</p>
-        <p class="leading-8 font-body text-sm md:font-base tracking-wider lg:max-w-2xl">We welcome comments and questions about the company, TBM technology, and our projects. Please email <a class="underline" href="mailto:communityfeedback@theopendrone.com">communityfeedback@theopendrone.com</a> to share your feedback. </p>
+    <div class="flex flex-col lg:flex-row justify-between py-12">
+        <p class="font-title font-semibold text-2xl mb-12">How can I share feedback?</p>
+        <p class="leading-8 font-body text-sm md:font-base tracking-wider lg:max-w-2xl">We welcome comments and questions about the company, TBM technology, and our projects. Please email <a class="font-semibold mail" href="mailto:communityfeedback@theopendrone.com">communityfeedback@theopendrone.com</a> to share your feedback. </p>
     </div>
   </div>
 </template>
@@ -57,6 +57,14 @@
 <script>
 export default {
   layout: "main"
-};
+}
 </script>
+<style scoped>
+  .mail:hover {
+    opacity: 0.7;
+  }
+  .but:hover {
+    opacity: 0.85;
+  }
+</style>
 
