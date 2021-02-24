@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black">
-    <div class="py-12 border-b border-white border-opacity-20">
+    <div class="py-20 border-b border-white border-opacity-20">
       <p class="font-title text-2xl mb-12">Jobs</p>
       <p class="leading-8 font-body text-sm md:font-base tracking-wider">
         The Open Drone is a group of individuals that share a passion to
@@ -12,14 +12,22 @@
         packages.
       </p>
     </div>
-    <div class="py-12 border-b border-white border-opacity-20">
+    <div class="py-20 border-b border-white border-opacity-20">
       <p class="font-title text-2xl mb-12">Engineering</p>
-      <div class="font-body flex justify-between">
+      <div class="font-body flex justify-between my-6">
+        <a href="#"><p class="underline">Electical Engineer</p></a>
+        <p class="text-white text-opacity-50">Bengaluru, India</p>
+      </div>
+       <div class="font-body flex justify-between my-6">
+        <a href="#"><p class="underline">Electical Engineer</p></a>
+        <p class="text-white text-opacity-50">Bengaluru, India</p>
+      </div>
+       <div class="font-body flex justify-between my-6">
         <a href="#"><p class="underline">Electical Engineer</p></a>
         <p class="text-white text-opacity-50">Bengaluru, India</p>
       </div>
     </div>
-    <div class="py-12 border-b border-white border-opacity-20">
+    <div class="py-20">
       <p class="font-title text-2xl mb-12">Didn’t Find Your Matching Role?</p>
       <p class="leading-8 font-body text-sm md:font-base tracking-wider">
         Dont worry. please apply to <span class="underline"><a href="mailto:careers@theopendrone.com">careers@theopendrone.com</a></span> by sending your
