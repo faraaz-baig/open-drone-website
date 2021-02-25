@@ -49,7 +49,7 @@
     </div>
     <div class="flex flex-col lg:flex-row justify-between py-12">
         <p class="font-title font-semibold text-2xl mb-12">How can I share feedback?</p>
-        <p class="leading-8 font-body text-base tracking-wide lg:max-w-2xl">We welcome comments and questions about the company, TBM technology, and our projects. Please email <a class="font-semibold mail" href="mailto:communityfeedback@theopendrone.com">communityfeedback@theopendrone.com</a> to share your feedback. </p>
+        <p class="leading-8 font-body break-words text-base tracking-wide lg:max-w-2xl">We welcome comments and questions about the company, TBM technology, and our projects. Please email <a class="font-semibold mail" href="mailto:communityfeedback@theopendrone.com">communityfeedback@theopendrone.com</a> to share your feedback.</p>
     </div>
   </div>
 </template>
