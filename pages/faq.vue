@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-white" id="#top">
-    <div class="py-12 border-b border-black border-opacity-20">
+  <div class="bg-white">
+    <div class="py-12 border-b border-black border-opacity-20" id="#top">
       <p class="font-title font-semibold text-2xl mb-12">
         Frequently Asked Questions
       </p>
