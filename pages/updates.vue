@@ -14,11 +14,11 @@
     </div>
     <div class="py-12 border-b border-black border-opacity-20">
       <p class="font-title font-semibold text-2xl mb-12">Weekly Updates</p>
-      <div class="article" v-for="article of articles" :key="article">
-        <nuxt-link class="flex border rounded-xl p-12 mb-12 border-black border-opacity-30" :to="{ name: 'slug', params: { 'slug': article.slug } }">
+      <div class="article" v-for="article in articles" :key="article">
+        <nuxt-link class="flex flex-col md:flex-row items-center border rounded-xl p-12 mb-12 border-black border-opacity-30" :to="{ name: 'slug', params: { 'slug': article.slug } }">
           <img class="w-44 rounded-xl" :src="require(`~/assets/images/${article.img}`)" alt="blog image">
-          <div class="ml-20">
-            <p>{{ article.date }}</p>
+          <div class="md:ml-20 text-center md:text-left">
+            <p class="mt-4">{{ article.date }}</p>
             <p class="font-title font-semibold text-2xl mb-3">{{ article.title }}</p>
             <p>{{ article.description }}</p>
           </div>
@@ -47,12 +47,14 @@
 export default {
   layout: "main",
   async asyncData({ $content, params}) {
-    const articles = await $content('updates', params.slug).fetch();
+    const articles = await $content('updates', params.slug)
+    .sortBy('createdAt', 'desc')
+    .fetch();
 
     return {
       articles
     }
-  }
+  },
 };
 </script>
 

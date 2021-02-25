@@ -1,0 +1,21 @@
+---
+title: Week 1 January update
+description: Happy New Year! We've been getting in touch with some vendors to get the drone made out of fiberglass, testing some of the electronics, unning HITL (Hardware In The Loop) simulations, running CFD simulations.
+date: January 01, 2021
+slug: week-1-january-update
+img: blog-image.jpg
+---
+
+# Project update
+
+Hey guys, Happy New Year to everyone and hope you all had a great holiday season. Since most people were taking some time off towards the end of the year, we decided to skip the weekly update for last week, but we're back now, and the project has been moving along during the holiday season as well.
+
+- We've been getting in touch with some vendors to get the drone made out of fiberglass, and get a quote on how much that should cost. So far it seems like fiberglass should be an effective low-cost and lightweight option, so fingers crossed that everything works out.
+
+- We've also been testing some of the electronics, and most of them are working, however a few replacements need to be made. The funding request for these parts along with the construction of the shell will be sent to helpful sometime next week.
+
+- To get familiar with the controls of the drone, we are running HITL (Hardware In The Loop) simulations on AirSim to try and minimize the number of times the drone crashes with some practice 😛
+
+- We worked on running CFD simulations to find the Cl, Cd, and Cm values for the drone, however the node limit on the free version of Ansys isn't enough to run a simulation with the accuracy we require, so we're working with helpful to get a commercial license of Ansys, which allows us to bypass the node limit and run much more detailed simulations on the drone (both for FEA and CFD).
+
+Cheers!

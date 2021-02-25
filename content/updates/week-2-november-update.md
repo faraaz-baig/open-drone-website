@@ -1,0 +1,26 @@
+---
+title: Week 2 November update
+description: Most of the FEA simulations are complete, funding request for the electronics order to Helpful has been sent and is currently being processed. We're on track to start working on the drone as soon as the parts arrive from China.
+date: November 14, 2020
+slug: week-2-november-update
+img: blog-image.jpg
+---
+
+# Prototype
+
+- Most of the FEA simulations are complete - the final collision simulation is currently running and should finish solving in a day or two. You can see the results of one of the simulations below (don't worry, the plastic deformation is 0).
+- We have sent the funding request for the electronics order to Helpful and its currently being processed (and hopefully approved).
+- The model has now been simplified for ease of simulation and manufacturing - the changes are only in the methods used to create the bodies, so no actual structural changes have been made to the model.
+- We're on track to start working on the drone as soon as the parts arrive from China.
+- @Abdulkadir has worked on and sent a document for analysis of airfoils for the drone - these will then be implemented in V2 of the prototype/the MVP.
+
+# Documentation
+
+- @Michael, @Tolu, and I have worked on a plan for the documentation to ensure everything is up to date and there is no backlog, as there will be a lot more documentation after the prototype is complete.
+- The Trello board has been updated with everything that's going on - the dates still need to be added though.
+- The decision register has been updated with all the high-level changes in the project.
+- The action tracker is up to date.
+- Risk evaluation is up to date.
+
+Cheers!
+

@@ -1,0 +1,35 @@
+---
+title: Week 3 February updates
+description: This week, a lot of work has been done with the prototype - the foam mold of the drone is almost entirely complete and layering process should begin next week.
+date: February 20, 2021
+slug: week-3-february-update
+img: blog-image.jpg
+---
+
+# Prototype
+
+This week, a lot of work has been done with the prototype - the foam mold of the drone is almost entirely complete and layering process should begin next week.
+
+- We've remade and printed the slices of the drone body, as the new foam is of a different thickness.
+
+- We've cut out all the airfoils of the drone - there were 24 of them.
+
+- We've connected all the airfoils - currently the drone is kept together by ingenuity and toothpicks, a lot of toothpicks!
+
+- To smoothen the surfaces, intense filing had to be done, with this process taking the longest - over 10 hours spread across 2 days.
+
+- After completing the midsection and sanding to smoothen out the transitions, the foam cores were cut. This was done by placing cardboard cutouts along the thickness of the foam and cutting in that manner, as the profile was constant throughout the body.
+
+- Finally, the wings were sanded and attached to the drone body.
+
+# Simulations
+
+- We've managed to figure out some of the issues we were facing with the FEA simulations, and are now able to run tests faster and remove the bodies that were causing issues.
+
+- We're also working with the Helpful team to get in touch with Ansys for free access to their software.
+
+# Legal
+
+- We're still working out some of the details of forming a legal entity and getting the relevant drone licenses. Its quite a long process but hopefully it shouldn't be a bottleneck as we're starting this all quite early.
+
+Cheers!
