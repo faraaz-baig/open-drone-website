@@ -2,7 +2,7 @@
   <div class="bg-white">
     <div class="py-12 border-b border-black border-opacity-20">
       <p class="font-title font-semibold text-2xl mb-12">Frequently Asked Questions</p>
-      <p class="leading-8 font-body text-sm md:font-base tracking-wider">
+      <p class="leading-8 font-body text-base tracking-wide">
         To solve the problem of soul-destroying traffic, roads must go 3D, which
         means either flying cars or tunnels are needed. Unlike flying cars,
         tunnels are weatherproof, out of sight, and won't fall on your head. A
@@ -28,7 +28,7 @@
       <img class="self-center mb-12" src="~/assets/images/home-drone.png" alt="drone-image" />
       <div class="flex flex-col lg:flex-row justify-between">
         <p class="font-title font-semibold text-2xl mb-12">Why Drone?</p>
-        <p class="leading-8 font-body text-sm md:font-base tracking-wider lg:max-w-2xl">
+        <p class="leading-8 font-body text-base tracking-wide lg:max-w-2xl">
           Unlimited capacity: There is no practical limit to how many layers of
           tunnels can be built, so any current or future capacity outcome can be
           achieved. This flexibility contrasts with a surface system, where
@@ -49,7 +49,7 @@
     </div>
     <div class="flex flex-col lg:flex-row justify-between py-12">
         <p class="font-title font-semibold text-2xl mb-12">How can I share feedback?</p>
-        <p class="leading-8 font-body text-sm md:font-base tracking-wider lg:max-w-2xl">We welcome comments and questions about the company, TBM technology, and our projects. Please email <a class="font-semibold mail" href="mailto:communityfeedback@theopendrone.com">communityfeedback@theopendrone.com</a> to share your feedback. </p>
+        <p class="leading-8 font-body text-base tracking-wide lg:max-w-2xl">We welcome comments and questions about the company, TBM technology, and our projects. Please email <a class="font-semibold mail" href="mailto:communityfeedback@theopendrone.com">communityfeedback@theopendrone.com</a> to share your feedback. </p>
     </div>
   </div>
 </template>

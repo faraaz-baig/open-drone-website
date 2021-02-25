@@ -2,7 +2,7 @@
   <div class="bg-white">
     <div class="py-12 border-b border-black border-opacity-20">
       <p class="font-title text-2xl font-semibold mb-12">Jobs</p>
-      <p class="leading-8 font-body text-sm md:font-base tracking-wider">
+      <p class="leading-7 font-body text-base tracking-wide">
         The Open Drone is a group of individuals that share a passion to
         innovate within the logistics industry to dramatically improve drone
         delivery and drone infrastructure worldwide. We're looking for top
@@ -29,10 +29,10 @@
     </div>
     <div class="py-12">
       <p class="font-title font-semibold text-2xl mb-12">Didn’t Find Your Matching Role?</p>
-      <p class="leading-8 font-body text-sm md:font-base tracking-wider">
+      <p class="leading-8 font-body text-base tracking-wide">
         Dont worry. please apply to <span class="font-semibold mail"><a href="mailto:careers@theopendrone.com">careers@theopendrone.com</a></span> by sending your
         resume cover letter and tell us why you’d love to work with us. And
-        we’ll reach out if/when we have a fit that matches your skill-set.
+        we’ll reach out when we have a fit that matches your skill-set.
       </p>
     </div>
   </div>

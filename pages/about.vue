@@ -2,7 +2,7 @@
   <div class="bg-white">
     <div class="py-12 border-b border-black border-opacity-20">
       <p class="font-title font-semibold text-2xl mb-12">A New Kind of Business</p>
-      <p class="leading-8 font-body text-sm md:font-base tracking-wider">
+      <p class="leading-8 font-body text-base tracking-wide">
         With a combination of mobile technology, autonomous robots and
         partnerships with stores and restaurants, we make local delivery faster,
         smarter and more cost-efficient.
@@ -46,13 +46,13 @@
         </div>
       </div>
     </div>
-    <div class="py-12 flex justify-center border-b border-black border-opacity-20">
+    <div class="py-12 flex justify-center border-b border-black text-base text-center tracking-wide border-opacity-20">
       <p>Questions? Please e-mail: <a class="py-3 font-semibold mail" href="mailto:questions@theopendrone.com">questions@theopendrone.com</a></p>
     </div>
     <div class="py-20">
       <p class="flex justify-center text-center font-semibold font-title text-2xl mb-12">Let Us Help You to Serve Your Customers Faster</p>
       <div class="flex justify-center items-center flex-col">
-        <p class="leading-6 max-w-xl font-body text-sm md:font-base text-center tracking-wide">
+        <p class="leading-6 max-w-xl font-body text-base tracking-wide text-center">
           We welcome comments and advices about the our steps at our company and
           our projects. Please email <a class="font-semibold mail" href="mailto:communityfeedback@theopendrone.com">communityfeedback@theopendrone.com</a> to share
           your advice.

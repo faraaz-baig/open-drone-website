@@ -15,12 +15,12 @@
             </ul>
       </div>
       <div class="py-12 flex justify-center border-b border-black border-opacity-20">
-        <p class="text-center">Questions? Please e-mail: <a class="py-3 font-semibold mail" href="mailto:questions@theopendrone.com">questions@theopendrone.com</a></p>
+        <p class="text-center text-base tracking-wide">Questions? Please e-mail: <a class="py-3 font-semibold mail" href="mailto:questions@theopendrone.com">questions@theopendrone.com</a></p>
       </div>
       <div class="py-12">
       <p class="flex justify-center text-center font-title font-semibold text-2xl mb-12">Let Us Help You to Serve Your Customers Faster</p>
       <div class="flex justify-center items-center flex-col">
-        <p class="leading-6 font-body text-sm max-w-xl md:font-base text-center tracking-wide">
+        <p class="leading-6 font-body max-w-xl text-base tracking-wide text-center">
           We welcome comments and advices about the our steps at our company and
           our projects. Please email <a class="font-semibold mail" href="mailto:communityfeedback@theopendrone.com">communityfeedback@theopendrone.com</a> to share
           your advice.

@@ -1,8 +1,8 @@
 <template>
     <div>
         <div class="py-12 flex flex-col items-center justify-center border-b border-black border-opacity-30">
-            <p class="font-title font-semibold text-5xl">{{ article.title }}</p>
-            <p class="font-body p-2 text-xl">{{ article.date }}</p>
+            <p class="font-title font-semibold text-2xl sm:text-5xl">{{ article.title }}</p>
+            <p class="font-body p-2 text-lg sm:text-xl">{{ article.date }}</p>
         </div>
         <article class="prose py-12 mx-auto">
             <nuxt-content :document="article" />
