@@ -2,7 +2,7 @@
   <div class="bg-white">
     <div>
       <div class="flex items-center my-12">
-        <h1 class="font-title font-semibold text-2xl">Volant</h1>
+        <h1 class="font-title font-semibold text-2xl">Volant I</h1>
         <span
           class="text-xs ml-3 px-1 text-green-500 font-bold rounded-sm bg-opacity-10 bg-gray-800"
           >new</span
@@ -21,9 +21,7 @@
       <p class="flex justify-center text-center font-title font-semibold text-2xl mb-12">Let Us Help You to Serve Your Customers Faster</p>
       <div class="flex justify-center items-center flex-col">
         <p class="leading-6 font-body max-w-xl text-base tracking-wide text-center">
-          We welcome comments and advices about the our steps at our company and
-          our projects. Please email <a class="font-semibold mail" href="mailto:communityfeedback@theopendrone.com">communityfeedback@theopendrone.com</a> to share
-          your advice.
+          What are you waiting for? Let us help you serve your customers faster and help you grow.
         </p>
          <nuxt-link to="/" class="uppercase text-white but rounded mt-10 font-bold outline-none bg-blue py-2 px-5">Partner with us</nuxt-link>
       </div>
@@ -38,11 +36,11 @@ export default {
   data: () => {
     return {
       features: [
-        "Fire extinguisher sold separately",
-        "Additional customs fees may apply for international orders because of laws",
-        "International customers can receive a full refund if not happy with said fees",
-        "Before shipping, aspiring flamethrower aficionados will be sent a terms and conditions rhyme for review and acceptance",
-        "May not be used on Boring Company decorative lacquered hay bales or Boring Company dockside munitions warehouses"
+        "For security, the Drone is mechanically locked throughout the journey and can be opened only by the recipient with their smartphone app.",
+        "The location of the drone is tracked, so you know exactly the location of your order and receive a notification at the time of arrival.",
+        "The entire delivery platform is both energy- and cost efficient. In comparison to more traditional delivery services.",
+        "As an electronically powered drones, our system is incredibly clean and incredibly green. It’s both good for the planet and for your business.",
+        "Parcels, groceries, medicines and food are directly delivered from stores (in range of 12 kms), at the time that the customer requests via our mobile app."
       ]
     };
   }

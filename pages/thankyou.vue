@@ -13,8 +13,8 @@
     </p>
     <p>
       If It's urgent try dropping an email at
-      <a class="font-semibold mail" href="mailto:faraazbaig@theopendrone.com"
-        >faraazbaig@theopendrone.com</a
+      <a class="font-semibold mail" href="mailto:urgent@theopendrone.com"
+        >urgent@theopendrone.com</a
       >
     </p>
   </div>

@@ -10,9 +10,9 @@
         </div>
         <div class=" text-center text-body text-sm sm:text-base max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-2xl">
           <p class="leading-7">
-            The Open Drone is a group of individuals that share a passion to
+            The Open Drone is a group of young individuals that share a passion to
             innovate within the logistics industry to dramatically improve drone
-            delivery and drone infrastructure worldwide.
+            delivery accessibility and infrastructure.
           </p>
         </div>
       </div>
