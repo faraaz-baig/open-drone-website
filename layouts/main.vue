@@ -4,7 +4,8 @@
             <Logo />
             <Pageheader />
             <Nuxt /> 
-            <Footer /> 
+            <Footer />
+            <Navmain /> 
         </div>
     </div>
 </template>

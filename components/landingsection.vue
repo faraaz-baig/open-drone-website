@@ -16,7 +16,7 @@
           </p>
         </div>
       </div>
-      <footer class="pb-6 flex flex-col">
+      <footer class="pb-20 sm:pb-6 flex flex-col">
         <div class="flex w-20 sm:w-32 justify-evenly mx-auto pb-4">
           <a class="px-2" href="#"
             ><img src="~/assets/images/twitter-white.svg" alt="twitter"

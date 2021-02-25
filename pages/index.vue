@@ -38,6 +38,7 @@
       </div>
     </div>
     <Landingsection />
+    <Navhome />
   </div>
 </template>
 
