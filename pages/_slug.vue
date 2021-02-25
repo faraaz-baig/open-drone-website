@@ -7,10 +7,12 @@
         <article class="prose py-12 mx-auto">
             <nuxt-content :document="article" />
         </article>
-        <button class="flex but items-center text-white px-4 py-2 rounded bg-black mx-auto">
-            <img class="w-5 opacity-90" src="~/assets/images/back.svg" alt="">
-            <nuxt-link class="ml-2 text-white" to="/updates">Go Back</nuxt-link>
-        </button>
+        <nuxt-link to="/updates" class="ml-2 text-white">
+            <button class=" flex but items-center text-white px-4 py-2 rounded bg-black mx-auto" to="/updates">
+            <img class="w-5 opacity-90 mr-2" src="~/assets/images/back.svg" alt="">
+            Go Back
+            </button>
+        </nuxt-link>
     </div>
 </template>
 
