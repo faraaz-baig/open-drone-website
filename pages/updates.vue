@@ -27,9 +27,9 @@
         <p class="max-w-lg leading-6 font-body text-base break-words tracking-wide">We welcome comments and advices about the our steps at our company and our projects. Please email <a class="font-semibold mail" href="mailto:communityfeedback@theopendrone.com">communityfeedback@theopendrone.com</a> to share your advice or feedback. </p>
     </div>
     <div class="py-12">
-      <p class="flex justify-center text-center font-semibold font-title text-2xl mb-12">Let Us Help You to Serve Your Customers Faster</p>
+      <p class="flex justify-center text-center font-semibold font-title text-2xl mb-12">Let Us Help You Serve Your Customers Faster</p>
       <div class="flex justify-center items-center flex-col">
-        <p class="leading-6 max-w-xl break-words font-body text-base tracking-wide text-center">
+        <p class="leading-6 max-w-xl font-body text-base tracking-wide text-center">
          What are you waiting for? Let us help you serve your customers faster and help you grow.
         </p>
          <nuxt-link to="/" class="uppercase but text-white rounded mt-10 font-bold outline-none bg-blue py-2 px-5">Partner with us</nuxt-link>

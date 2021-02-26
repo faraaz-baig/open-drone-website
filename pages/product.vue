@@ -18,12 +18,12 @@
         <p class="text-center text-base tracking-wide">Questions? Please e-mail: <a class="py-3 font-semibold mail" href="mailto:questions@theopendrone.com">questions@theopendrone.com</a></p>
       </div>
       <div class="py-12">
-      <p class="flex justify-center text-center font-title font-semibold text-2xl mb-12">Let Us Help You to Serve Your Customers Faster</p>
+      <p class="flex justify-center text-center font-semibold font-title text-2xl mb-12">Let Us Help You Serve Your Customers Faster</p>
       <div class="flex justify-center items-center flex-col">
-        <p class="leading-6 font-body max-w-xl text-base tracking-wide text-center">
-          What are you waiting for? Let us help you serve your customers faster and help you grow.
+        <p class="leading-6 max-w-xl font-body text-base tracking-wide text-center">
+         What are you waiting for? Let us help you serve your customers faster and help you grow.
         </p>
-         <nuxt-link to="/" class="uppercase text-white but rounded mt-10 font-bold outline-none bg-blue py-2 px-5">Partner with us</nuxt-link>
+         <nuxt-link to="/" class="uppercase but text-white rounded mt-10 font-bold outline-none bg-blue py-2 px-5">Partner with us</nuxt-link>
       </div>
     </div>
     </div>

@@ -49,7 +49,7 @@
     <div class="py-12 flex justify-center border-b border-black text-base text-center tracking-wide border-opacity-20">
       <p>Questions? Please e-mail: <a class="py-3 font-semibold mail" href="mailto:questions@theopendrone.com">questions@theopendrone.com</a></p>
     </div>
-    <div class="py-20">
+    <div class="py-12">
       <p class="flex justify-center text-center font-semibold font-title text-2xl mb-12">Let Us Help You Serve Your Customers Faster</p>
       <div class="flex justify-center items-center flex-col">
         <p class="leading-6 max-w-xl font-body text-base tracking-wide text-center">
