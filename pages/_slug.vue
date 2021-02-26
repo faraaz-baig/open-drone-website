@@ -4,7 +4,7 @@
             <p class="font-title font-semibold text-2xl sm:text-5xl">{{ article.title }}</p>
             <p class="font-body p-2 text-lg sm:text-xl">{{ article.date }}</p>
         </div>
-        <article class="prose py-12 mx-auto">
+        <article class="prose py-12 break-words mx-auto">
             <nuxt-content :document="article" />
         </article>
         <nuxt-link to="/updates" class="ml-2 text-white">
