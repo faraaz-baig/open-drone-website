@@ -27,30 +27,30 @@
       <div
         class="flex flex-wrap justify-center md:justify-between items-center mt-16 text-center"
       >
-        <nuxt-link
+        <a
           class="py-2 but rounded mb-4 text-white font-medium outline-none bg-fa-black w-80 sm:mr-4 md:w-32"
-          :to="{ hash: '#drone' }"
-          >Drone</nuxt-link
+          href="#drone"
+          >Drone</a
         >
-        <nuxt-link
+        <a
           class="py-2 but rounded mb-4 text-white font-medium outline-none bg-fa-black w-80 sm:mr-4 md:w-32"
-          :to="{ hash: '#data-science' }"
-          >Data Science</nuxt-link
+          href="#data-science"
+          >Data Science</a
         >
-        <nuxt-link
+        <a
           class="py-2 but rounded mb-4 text-white font-medium outline-none bg-fa-black w-80 sm:mr-4 md:w-32"
-          :to="{ hash: '#mission' }"
-          >Mission</nuxt-link
+          href="#mission"
+          >Mission</a
         >
-        <nuxt-link
+        <a
           class="py-2 but rounded mb-4 text-white font-medium outline-none bg-fa-black w-80 sm:mr-4 md:w-32"
-          :to="{ hash: '#open-source' }"
-          >Open Source</nuxt-link
+          href="#open-source"
+          >Open Source</a
         >
-        <nuxt-link
+        <a
           class="py-2 but rounded mb-4 text-white font-medium outline-none bg-fa-black w-80 sm:mr-4 md:w-32"
-          :to="{ hash: '#algorithm' }"
-          >Algorithm</nuxt-link
+          href="#algorithm"
+          >Algorithm</a
         >
       </div>
     </div>
@@ -76,17 +76,51 @@
         to share your feedback.
       </p>
     </div>
-    <nuxt-link :to="{ hash: '#top'}" class="fixed hidden sm:flex bottom-4 right-4">
+    <a href="#" class="fixed hidden sm:flex bottom-4 right-4">
         <button class=" flex but items-center text-white px-4 py-2 rounded bg-black mx-auto">
           <img class="w-5 opacity-90" src="~/assets/images/top.svg" alt="">
         </button>
-    </nuxt-link>
+    </a>
   </div>
 </template>
 
 <script>
 export default {
-  layout: "main"
+  layout: "main",
+  data: () => {
+    return {
+        description:"The Open Drone is a group of young individuals that share a passion to innovate within the logistics industry to dramatically improve drone delivery accessibility and infrastructure.",
+        name: 'FAQs',
+    }
+  },
+   head() {
+    return {
+        meta: [{
+            hid: 'description',
+            name: 'description',
+            content: this.description}, 
+            {
+            hid: 'twitter:card',
+            name: 'twitter:card',
+            content: `The Open Drone | ${this.name}`}, 
+            {
+            hid: 'twitter:title',
+            name: 'twitter:title',
+            content: `The Open Drone | ${this.name}`}, 
+            {
+            hid: 'twitter:description',
+            name: 'twitter:description',
+            content: this.description}, 
+            {
+            hid: 'og:title',
+            name: 'og:title',
+            content: `The Open Drone | ${this.name}`}, 
+            {
+            hid: 'og:description',
+            name: 'og:description',
+            content: this.description}]
+    }
+  }
 };
 </script>
 <style scoped>

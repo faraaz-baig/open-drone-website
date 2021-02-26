@@ -50,6 +50,40 @@ export default {
       articles
     }
   },
+  data: () => {
+    return {
+        description:"The Open Drone is a group of young individuals that share a passion to innovate within the logistics industry to dramatically improve drone delivery accessibility and infrastructure.",
+        name: 'Updates',
+    }
+  },
+   head() {
+    return {
+        meta: [{
+            hid: 'description',
+            name: 'description',
+            content: this.description}, 
+            {
+            hid: 'twitter:card',
+            name: 'twitter:card',
+            content: `The Open Drone | ${this.name}`}, 
+            {
+            hid: 'twitter:title',
+            name: 'twitter:title',
+            content: `The Open Drone | ${this.name}`}, 
+            {
+            hid: 'twitter:description',
+            name: 'twitter:description',
+            content: this.description}, 
+            {
+            hid: 'og:title',
+            name: 'og:title',
+            content: `The Open Drone | ${this.name}`}, 
+            {
+            hid: 'og:description',
+            name: 'og:description',
+            content: this.description}]
+    }
+  }
 };
 </script>
 

@@ -41,8 +41,38 @@ export default {
         "The entire delivery platform is both energy- and cost efficient. In comparison to more traditional delivery services.",
         "As an electronically powered drones, our system is incredibly clean and incredibly green. It’s both good for the planet and for your business.",
         "Parcels, groceries, medicines and food are directly delivered from stores (in range of 12 kms), at the time that the customer requests via our mobile app."
-      ]
+      ],
+      description:"The Open Drone is a group of young individuals that share a passion to innovate within the logistics industry to dramatically improve drone delivery accessibility and infrastructure.",
+      name: 'Product',
     };
+  },
+   head() {
+    return {
+        meta: [{
+            hid: 'description',
+            name: 'description',
+            content: this.description}, 
+            {
+            hid: 'twitter:card',
+            name: 'twitter:card',
+            content: `The Open Drone | ${this.name}`}, 
+            {
+            hid: 'twitter:title',
+            name: 'twitter:title',
+            content: `The Open Drone | ${this.name}`}, 
+            {
+            hid: 'twitter:description',
+            name: 'twitter:description',
+            content: this.description}, 
+            {
+            hid: 'og:title',
+            name: 'og:title',
+            content: `The Open Drone | ${this.name}`}, 
+            {
+            hid: 'og:description',
+            name: 'og:description',
+            content: this.description}]
+    }
   }
 };
 </script>
