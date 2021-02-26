@@ -32,10 +32,10 @@
             you unlock all our apps features.
             </p>
         </div>
-        <img class="w-40 mb-20 md:0" src="~/assets/images/radar.svg" alt="alien" />
+        <img class="w-40 mb-20 md:0" src="~/assets/images/radar.svg" alt="radar" />
       </div>
       <div class="flex flex-col md:flex-row justify-between items-center pt-32 px-4">
-        <img class="w-48 mb-20 md:0" src="~/assets/images/ufo.svg" alt="alien" />
+        <img class="w-48 mb-20 md:0" src="~/assets/images/ufo.svg" alt="UFO" />
         <div>
             <p class="font-title font-semibold text-2xl mb-12">3. Start Delivering Like an UFO</p>
             <p class="max-w-sm text-sm sm:text-base leading-8">
