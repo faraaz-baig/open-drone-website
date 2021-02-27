@@ -1,9 +1,9 @@
 <template>
-    <div class="bg flex flex-col justify-between items-center bg-black min-h-screen">
+    <div class="bg flex flex-col justify-between items-center min-h-screen">
       <div></div>
-      <div class="flex flex-col items-center">
+      <div class="flex flex-col justify-center items-center">
         <div class="mb-10">
-          <img src="~/assets/images/home-drone.png" alt="drone image" />
+          <img class="pointer-events-none" src="~/assets/images/drone-trans.png" alt="drone image" />
         </div>
         <div class="mb-10">
           <p class="font-title text-center font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl"><Type /></p>
@@ -16,19 +16,6 @@
           </p>
         </div>
       </div>
-      <footer class="pb-20 sm:pb-6 flex flex-col">
-        <div class="flex w-20 sm:w-32 justify-evenly mx-auto pb-4">
-          <a class="px-2" href="#"
-            ><img src="~/assets/images/twitter-white.svg" alt="twitter"
-          /></a>
-          <a class="pr-2" href="#"
-            ><img src="~/assets/images/linkedin-white.svg" alt="linkedin"
-          /></a>
-          <a class="pr-2" href="#"
-            ><img src="~/assets/images/instagram-white.svg" alt="instagram"
-          /></a>
-        </div>
-        <p class="text-grey text-xs sm:text-sm text-opacity-50">The Open Drone. © 2021</p>
-      </footer>
+      <Footer />
     </div>
 </template>

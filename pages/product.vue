@@ -8,7 +8,7 @@
           >new</span
         >
       </div>
-      <img class="mb-12" src="~/assets/images/drone.gif" alt="drone gif" />
+      <img class="mb-12 pointer-events-none" src="~/assets/images/drone.gif" alt="drone gif" />
       <div class="pb-12 border-b border-black border-opacity-20">
           <ul class="mx-6" v-for="feature in features" :key="feature">
                 <li class="custom list-outside py-5">{{feature}}</li>

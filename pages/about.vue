@@ -13,7 +13,7 @@
         <p class="font-title text-2xl font-semibold sm:text-2xl mb-12">Get Started in 3 Easy Steps</p>
       </div>
       <div class="flex flex-col md:flex-row justify-between items-center pt-12 sm:pt-12 pb-32 px-4">
-        <img class="w-36 mb-20 md:0" src="~/assets/images/alien.svg" alt="alien" />
+        <img class="w-36 mb-20 md:0 pointer-events-none" src="~/assets/images/alien.svg" alt="alien" />
         <div>
             <p class="font-title font-semibold text-2xl mb-12">1. Register On Our Node Network</p>
             <p class="max-w-sm text-sm sm:text-base leading-8">
@@ -32,10 +32,10 @@
             you unlock all our apps features.
             </p>
         </div>
-        <img class="w-40 mb-20 md:0" src="~/assets/images/radar.svg" alt="radar" />
+        <img class="w-40 mb-20 md:0 pointer-events-none" src="~/assets/images/radar.svg" alt="radar" />
       </div>
       <div class="flex flex-col md:flex-row justify-between items-center pt-32 px-4">
-        <img class="w-48 mb-20 md:0" src="~/assets/images/ufo.svg" alt="UFO" />
+        <img class="w-48 mb-20 md:0 pointer-events-none" src="~/assets/images/ufo.svg" alt="UFO" />
         <div>
             <p class="font-title font-semibold text-2xl mb-12">3. Start Delivering Like an UFO</p>
             <p class="max-w-sm text-sm sm:text-base leading-8">

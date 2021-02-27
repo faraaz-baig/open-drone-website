@@ -16,9 +16,9 @@ import { setTimeout } from 'timers';
         typeValue: '',
         typeStatus: false,
         typeArray: ['Food', 'Medicines', 'Parts', 'Packages', 'Documents'],
-        typingSpeed: 200,
+        typingSpeed: 100,
         erasingSpeed: 100,
-        newTextDelay: 2000,
+        newTextDelay: 1000,
         typeArrayIndex: 0,
         charIndex: 0
       }
@@ -55,14 +55,14 @@ import { setTimeout } from 'timers';
       }
     },
     created() {
-      setTimeout(this.typeText, this.newTextDelay + 200);
+      setTimeout(this.typeText, this.newTextDelay);
     }
   }
 </script>
 
 <style scoped>
 span {
-    background: linear-gradient(90deg, #0077FF 0.71%, #348CF1 100%);
+    background: #0077FF;
     background-clip: text;
     color: transparent;
 }

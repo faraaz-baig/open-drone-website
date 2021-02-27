@@ -7,7 +7,7 @@
       Data Science
     </p>
     <img
-      class="self-center mb-12 w-2/3"
+      class="self-center mb-12 w-2/3 pointer-events-none"
       src="~/assets/images/data.png"
       alt="data-visualization-image"
     />

@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white ">
+  <div class="text-fa-black ">
     <div class=" home min-h-screen">
       <Header />
       <div class="px-10 flex flex-col items-center h justify-center">
@@ -13,7 +13,7 @@
           </div>
           <div class="mb-6">
             <p
-              class=" text-gray-300 text-xs sm:text-base max-w-xs sm:max-w-md md:max-w-md xl:max-w-md 2xl:max-w-lg font-body leading-5 my-1 sm:leading-7"
+              class=" text-fa-black text-xs sm:text-base max-w-xs sm:max-w-md md:max-w-md xl:max-w-md 2xl:max-w-lg font-body leading-5 my-1 sm:leading-7"
             >
               Instead of building warehouses and large centers, we're focused on
               only bringing what is necessary - the drone itself, so that anyone
@@ -25,7 +25,7 @@
       </div>
     </div>
     <Landingsection />
-    <Navhome />
+    <Navmain />
   </div>
 </template>
 
@@ -70,7 +70,7 @@ export default {
 
 <style scoped>
 .home {
-  background-image: url("~/assets/images/background.png");
+  background-image: url("~/assets/images/bg-light.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;

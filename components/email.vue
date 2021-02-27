@@ -28,7 +28,7 @@
               value="Partner With Us"
               name="subscribe"
               id="mc-embedded-subscribe"
-              class="button flex cursor-pointer justify-center outline-none bg-gradient-to-r from-blue to-light-blue text-xs sm:text-base p-3 w-full mx-auto sm:w-2/3 rounded-lg"
+              class="button flex cursor-pointer justify-center outline-none bg-blue text-white font-bold text-xs sm:text-base p-3 mx-auto w-2/3 sm:w-2/3 rounded-lg"
             />
           </div>
         </div>
@@ -39,9 +39,11 @@
 
 <style scoped>
 .email {
-  background: rgba(38, 38, 38, 0.92);
-  box-shadow: 0px 4px 40px #000000;
-  border-radius: 10px;
+  background: #EBEBEB;
+  border: 1px solid #D8D5D5;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.11);
+  border-radius: 8px;
 }
 ::placeholder {
   font-family: Roboto;
@@ -61,7 +63,7 @@ button {
 }
 
 .button:hover {
-  background: linear-gradient(90deg, #348cf1 0.71%, #0077ff 100%);
+  opacity: 0.85;
 }
 input:focus {
   border: solid 1px #0077ff;

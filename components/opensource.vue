@@ -7,7 +7,7 @@
       Open Source
     </p>
     <img
-      class="self-center mb-12 w-2/3"
+      class="self-center mb-12 w-2/3 pointer-events-none"
       src="~/assets/images/opensource.png"
       alt="drone-image"
     />

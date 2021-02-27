@@ -2,7 +2,7 @@
   <div
     class="bg-white flex justify-evenly items-center border-black border-t border-opacity-10 h-16 sm:hidden fixed right-0 bottom-0 left-0 "
   >
-    <nuxt-link class="flex nav flex-col items-center py-2.5 px-2" to="/product">
+    <nuxt-link class="flex nav opacity-70 flex-col items-center py-2.5 px-2" to="/product">
       <svg
         width="19"
         viewBox="0 0 777 784"
@@ -44,7 +44,7 @@
         Product
       </p>
     </nuxt-link>
-    <nuxt-link class="flex nav flex-col items-center py-2.5 px-3" to="/updates">
+    <nuxt-link class="flex nav opacity-70 flex-col items-center py-2.5 px-3" to="/updates">
       <svg
         width="19"
         viewBox="0 0 813 788"
@@ -69,7 +69,7 @@
         Updates
       </p>
     </nuxt-link>
-    <nuxt-link class="flex nav flex-col items-center py-2.5 px-4" to="/about">
+    <nuxt-link class="flex nav opacity-70 flex-col items-center py-2.5 px-4" to="/about">
       <svg
         width="19"
         viewBox="0 0 611 706"
@@ -92,7 +92,7 @@
 
       <p class="text-xs text-black font-semibold text-opacity-70 pt-2">About</p>
     </nuxt-link>
-    <nuxt-link class="flex nav flex-col items-center py-2.5 px-4" to="/jobs">
+    <nuxt-link class="flex nav opacity-70 flex-col items-center py-2.5 px-4" to="/jobs">
       <svg
         width="22"
         height="21"
@@ -110,7 +110,7 @@
 
       <p class="text-xs text-black font-semibold text-opacity-70 pt-2">Jobs</p>
     </nuxt-link>
-    <nuxt-link class="flex nav flex-col items-center py-2.5 px-4" to="/faq">
+    <nuxt-link class="flex nav opacity-70 flex-col items-center py-2.5 px-4" to="/faq">
       <svg
         width="23"
         viewBox="0 0 803 715"
@@ -136,8 +136,9 @@
 .nuxt-link-exact-active,
 .nuxt-link-active {
   border-top: solid 2px #202020;
+  opacity: 1;
 }
 .nav:hover {
-  opacity: 0.75;
+  opacity: 1;
 }
 </style>
