@@ -1,6 +1,6 @@
 <template>
   <div class="text-fa-black ">
-    <div class=" home min-h-screen">
+    <div class="home min-h-screen">
       <Header />
       <div class="px-10 flex flex-col items-center h justify-center">
         <div class="lg:max-w-xl xl:max-w-2xl">
