@@ -7,7 +7,7 @@
       Data Science
     </p>
     <img
-      class="self-center mb-12 w-2/3 pointer-events-none"
+      class="self-center mb-20 w-96 sm:w-2/3 pointer-events-none"
       src="~/assets/images/data.png"
       alt="data-visualization-image"
     />
@@ -71,8 +71,9 @@
       <p class="leading-8 font-body text-base tracking-wide lg:max-w-2xl">
         Most importantly, we are not going to collect any personal data. We will
         be looking at demographics and statistics, but nothing will be collected
-        on the individual level. <br><br> Moreover, since most of our data is publically
-        available, there are no ethics issues for collection or security. <br><br>
+        on the individual level. <br /><br />
+        Moreover, since most of our data is publically available, there are no
+        ethics issues for collection or security. <br /><br />
         Finally, we will guarantee safe and secure storage of any consumer data
         we have collected and will be completely transparent on our website
         about the uses of said data

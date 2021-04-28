@@ -7,7 +7,7 @@
       Open Source
     </p>
     <img
-      class="self-center mb-12 w-2/3 pointer-events-none"
+      class="self-center mb-20 w-96 sm:w-2/3 pointer-events-none"
       src="~/assets/images/opensource.png"
       alt="drone-image"
     />
@@ -20,17 +20,18 @@
         take some years until they have a drone fleet delivering supplies to all
         parts of the United Stated. But what about the rest of the world. It
         would easily be decades before such technology comes into the hands of
-        even relatively prominent places like India. <br><br> Coming from various parts
-        of the world, our design team is building a product with a global
-        purpose from the very beginning. By creating an open source hardware,
-        we're allowing places like India to begin their own drone delivery
-        services not in decades, not in a couple of years, but right now. This
-        kind of model simply doesn't seem like a reasonable option for tech
-        giants with the manpower, but this allows us to reach all parts of the
-        world at once <br><br> This isn't just idealistic thinking though. There are
-        incredible successes that came about from open-source, like Linux and
-        Arduino, which have completely shaped their respecive industries. Even
-        less publicized projects, such as the M19 initiative and Dev4X have
+        even relatively prominent places like India. <br /><br />
+        Coming from various parts of the world, our design team is building a
+        product with a global purpose from the very beginning. By creating an
+        open source hardware, we're allowing places like India to begin their
+        own drone delivery services not in decades, not in a couple of years,
+        but right now. This kind of model simply doesn't seem like a reasonable
+        option for tech giants with the manpower, but this allows us to reach
+        all parts of the world at once <br /><br />
+        This isn't just idealistic thinking though. There are incredible
+        successes that came about from open-source, like Linux and Arduino,
+        which have completely shaped their respecive industries. Even less
+        publicized projects, such as the M19 initiative and Dev4X have
         intellegently used open source hardware to create projects in months
         which would normally take a well-funded team years to complete. Right
         now, millions of people are looking for ways to help out in these trying

@@ -7,7 +7,7 @@
       Algorithm
     </p>
     <img
-      class="self-center mb-12 w-2/3 pointer-events-none"
+      class="self-center mb-20 w-96 sm:w-2/3 pointer-events-none"
       src="~/assets/images/algorithm.png"
       alt="drone-image"
     />
@@ -20,9 +20,10 @@
         the program extensively in India, as we have easy access to makerspaces
         and resources over there. As we continue running our drones, the
         algorithm will only get more accurate and safer, as they will be
-        constantly running. <br><br> Similarly, we will constantly update our data on the
-        demographics as soon as updated information comes out, and look at
-        sending out new surveys on an annual basis.
+        constantly running. <br /><br />
+        Similarly, we will constantly update our data on the demographics as
+        soon as updated information comes out, and look at sending out new
+        surveys on an annual basis.
       </p>
     </div>
   </div>

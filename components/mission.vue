@@ -4,8 +4,8 @@
       Mission
     </p>
     <img
-      class="self-center mb-12 w-2/3 pointer-events-none"
-      src="~/assets/images/drone.png"
+      class="self-center mb-12 w-96 sm:w-2/3 pointer-events-none"
+      src="~/assets/images/drone-trans.png"
       alt="drone-image"
     />
     <div class="flex flex-col lg:flex-row justify-between">
