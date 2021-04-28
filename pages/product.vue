@@ -26,11 +26,9 @@
           >new</span
         >
       </div>
-      <img
-        class="mb-12 pointer-events-none"
-        src="~/assets/images/drone-new.gif"
-        alt="drone gif"
-      />
+      <video autoplay loop muted class="mb-12 pointer-events-none">
+        <source src="~/assets/images/drone.webm" type="video/webm" />
+      </video>
       <div class="pb-12 border-b border-black border-opacity-20">
         <ul class="mx-6" v-for="feature in features" :key="feature">
           <li class="custom list-outside py-5">{{ feature }}</li>
