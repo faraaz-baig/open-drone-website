@@ -20,11 +20,11 @@ img: blog-image.jpg
 
 # Legal
 
-- We've been working hard with @Raksha and @Prime to get a better idea of the legal framework surrounding drone delivery in India. The major complexities lie with the approval of BVLOS (Beyond Visual Line of Sight) deliveries, however we can still test the drone in private property without legal approval and our current priority is finding a suitable location to do that.
+- We've been working hard with our team to get a better idea of the legal framework surrounding drone delivery in India. The major complexities lie with the approval of BVLOS (Beyond Visual Line of Sight) deliveries, however we can still test the drone in private property without legal approval and our current priority is finding a suitable location to do that.
 
 # Other News
 
-- Website is being worked on by @Jiannine
+- Website is being worked on by our team
 
 - We've started using notion for kanban and other documentation. Soon we'll be copying over our current files from the drive to notion as well
 

@@ -22,7 +22,7 @@ To give a quick background on the build process, currently I'm building the foam
 
 - We're currently working towards getting support from ANSYS on the simulations, so hopefully we will have access to a commercial license once we'll be starting work on the MVP.
 
-- @Abdulkadir is helping with the CFD by trying to run a 2D analysis on xfoil.
+- Our team is working with the CFD by trying to run a 2D analysis on xfoil.
 
 # Legal
 

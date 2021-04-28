@@ -12,15 +12,14 @@ img: blog-image.jpg
 - We have sent the funding request for the electronics order to Helpful and its currently being processed (and hopefully approved).
 - The model has now been simplified for ease of simulation and manufacturing - the changes are only in the methods used to create the bodies, so no actual structural changes have been made to the model.
 - We're on track to start working on the drone as soon as the parts arrive from China.
-- @Abdulkadir has worked on and sent a document for analysis of airfoils for the drone - these will then be implemented in V2 of the prototype/the MVP.
+- Our team has worked on and sent a document for analysis of airfoils for the drone - these will then be implemented in V2 of the prototype/the MVP.
 
 # Documentation
 
-- @Michael, @Tolu, and I have worked on a plan for the documentation to ensure everything is up to date and there is no backlog, as there will be a lot more documentation after the prototype is complete.
+- I have worked on a plan for the documentation to ensure everything is up to date and there is no backlog, as there will be a lot more documentation after the prototype is complete.
 - The Trello board has been updated with everything that's going on - the dates still need to be added though.
 - The decision register has been updated with all the high-level changes in the project.
 - The action tracker is up to date.
 - Risk evaluation is up to date.
 
 Cheers!
-

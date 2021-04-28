@@ -14,11 +14,11 @@ img: blog-image.jpg
 
 - We're collaborating with some other projects in Helpful to exchange ideas and validate results.
 
-- All of the electronics orders have been approved and ordered, so the bulk of the expenses for the drone have been covered thanks to the prototype fund by Helpful and @Maxim.
+- All of the electronics orders have been approved and ordered, so the bulk of the expenses for the drone have been covered thanks to the prototype fund by Helpful.
 
 # Documentation
 
-- Documentation is now complete and is being reviewed by the project managers @Michael and @Tolu.
+- Documentation is now complete and is being reviewed by the project managers.
 
 # Other News
 
