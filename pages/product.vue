@@ -2,6 +2,22 @@
   <div class="bg-white">
     <div>
       <div class="flex items-center my-12">
+        <h1 class="font-title font-semibold text-2xl">Volant II</h1>
+        <span
+          class="text-xs ml-3 px-1 text-green-500 font-bold rounded-sm bg-opacity-10 bg-gray-800"
+          >new</span
+        >
+      </div>
+      <video autoplay loop muted class="mb-12 pointer-events-none">
+        <source src="~/assets/images/drone.webm" type="video/webm" />
+      </video>
+      <div class="pb-12 border-b border-black border-opacity-20">
+        <ul class="mx-6" v-for="feature in features" :key="feature">
+          <li class="custom list-outside py-5">{{ feature }}</li>
+        </ul>
+      </div>
+
+      <div class="flex items-center my-12">
         <h1 class="font-title font-semibold text-2xl">Volant I</h1>
         <span
           class="text-xs ml-3 px-1 py-1 text-red-500 font-bold rounded-sm bg-opacity-10 bg-gray-800"
@@ -13,22 +29,6 @@
         src="~/assets/images/drone.gif"
         alt="drone gif"
       />
-      <div class="pb-12 border-b border-black border-opacity-20">
-        <ul class="mx-6" v-for="feature in features" :key="feature">
-          <li class="custom list-outside py-5">{{ feature }}</li>
-        </ul>
-      </div>
-
-      <div class="flex items-center my-12">
-        <h1 class="font-title font-semibold text-2xl">Volant II</h1>
-        <span
-          class="text-xs ml-3 px-1 text-green-500 font-bold rounded-sm bg-opacity-10 bg-gray-800"
-          >new</span
-        >
-      </div>
-      <video autoplay loop muted class="mb-12 pointer-events-none">
-        <source src="~/assets/images/drone.webm" type="video/webm" />
-      </video>
       <div class="pb-12 border-b border-black border-opacity-20">
         <ul class="mx-6" v-for="feature in features" :key="feature">
           <li class="custom list-outside py-5">{{ feature }}</li>
