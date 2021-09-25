@@ -1,7 +1,7 @@
 export default {
   target: "static",
   head: {
-    title: "The Open Drone",
+    title: "Airbound",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -9,49 +9,49 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "The Open Drone is a group of young individuals that share a passion to innovate within the logistics industry to dramatically improve drone delivery accessibility and infrastructure."
+          "Airbound is a group of young individuals that share a passion to innovate within the logistics industry to dramatically improve drone delivery accessibility and infrastructure."
       },
       {
         hid: "og:description",
         name: "og:description",
         content:
-        "The Open Drone is a group of young individuals that share a passion to innovate within the logistics industry to dramatically improve drone delivery accessibility and infrastructure."
+          "Airbound is a group of young individuals that share a passion to innovate within the logistics industry to dramatically improve drone delivery accessibility and infrastructure."
       },
-      { hid: "og:site_name", name: "og:site_name", content: "The Open Drone" },
-      { hid: "og:title", name: "og:title", content: "The Open Drone" },
+      { hid: "og:site_name", name: "og:site_name", content: "Airbound" },
+      { hid: "og:title", name: "og:title", content: "Airbound" },
       { hid: "og:image", name: "og:image", content: "/icon.svg" },
       {
         hid: "twitter:title",
         name: "twitter:title",
-        content: "The Open Drone - Drone Delivery FOr Every Business"
+        content: "Airbound - Drone Delivery For Every Business"
       },
-      { hid: "twitter:site", name: "twitter:site", content: "@theopendrone" },
+      { hid: "twitter:site", name: "twitter:site", content: "@airbound_co" },
       {
         hid: "twitter:creator",
         name: "twitter:creator",
-        content: "@theopendrone"
+        content: "@airbound_co"
       },
       {
         hid: "twitter:card",
         name: "twitter:card",
-        content: "The Open Drone | Drone Delivery FOr Every Business"
+        content: "Airbound | Drone Delivery For Every Business"
       },
       { hid: "twitter:image", name: "twitter:image", content: "/icon.svg" },
       {
         hid: "twitter:description",
         name: "twitter:description",
         content:
-        "The Open Drone is a group of young individuals that share a passion to innovate within the logistics industry to dramatically improve drone delivery accessibility and infrastructure."
+          "Airbound is a group of young individuals that share a passion to innovate within the logistics industry to dramatically improve drone delivery accessibility and infrastructure."
       },
       {
         hid: "apple-mobile-web-app-title",
         name: "apple-mobile-web-app-title",
-        content: "The Open Drone"
+        content: "Airbound"
       },
       {
         hid: "mobile-mobile-web-app-capable",
         name: "apple-mobile-web-app-capable",
-        content: "The Open Drone"
+        content: "Airbound"
       },
       {
         hid: "keywords",
@@ -84,7 +84,7 @@ export default {
       lang: "en"
     },
     icon: {
-      source: '/icon.svg'
+      source: "/icon.svg"
     }
   },
 
