@@ -102,11 +102,11 @@ export default {
             {
             hid: 'twitter:card',
             name: 'twitter:card',
-            content: `The Open Drone | ${this.name}`}, 
+            content: `Airbound | ${this.name}`}, 
             {
             hid: 'twitter:title',
             name: 'twitter:title',
-            content: `The Open Drone | ${this.name}`}, 
+            content: `Airbound | ${this.name}`}, 
             {
             hid: 'twitter:description',
             name: 'twitter:description',
@@ -114,7 +114,7 @@ export default {
             {
             hid: 'og:title',
             name: 'og:title',
-            content: `The Open Drone | ${this.name}`}, 
+            content: `Airbound | ${this.name}`}, 
             {
             hid: 'og:description',
             name: 'og:description',
